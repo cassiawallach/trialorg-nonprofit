@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>X703de5c960ed441c92c5ce52457a88b4lar</masterLabel>
+    <originNetwork>John Cena Community</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>John Cena Community</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>703de5c9-60ed-441c-92c5-ce52457a88b4-large3x4_JohnCenaTulsashoutout.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>a936772081001cd116a61c746b5a151b</masterLabel>
+    <originNetwork>OKR Partner Account Portal</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>OKR Partner Account Portal</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>a936772081001cd116a61c746b5a151b.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

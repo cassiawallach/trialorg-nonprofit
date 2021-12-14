@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Vertical --></label>
+    <name>Vertical__c</name>
+    <picklistValues>
+        <masterLabel>CORE</masterLabel>
+        <translation><!-- CORE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copado Robotic Testing</masterLabel>
+        <translation><!-- Copado Robotic Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FINS</masterLabel>
+        <translation><!-- FINS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation><!-- Healthcare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High Tech</masterLabel>
+        <translation><!-- High Tech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-AOV</masterLabel>
+        <translation><!-- Non-AOV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
