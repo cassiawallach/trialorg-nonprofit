@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>Copado_Trial</application>
         <default>false</default>
@@ -5156,46 +5157,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Copado_Setting__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Copado_Smart_Help__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Data_Template_Setup__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__ExtensionPackageConfiguration__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__MC_Custom_Job_Step__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__MultiCloudAutomation__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__StandardResources__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__Streaming_Setting__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__TestType__mdt</name>
-    </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>copado__UISection__mdt</name>
-    </customMetadataTypeAccesses>
     <customPermissions>
         <enabled>true</enabled>
         <name>cmcSf__Manage_Package_Keys</name>
@@ -5232,30 +5193,6 @@
         <enabled>true</enabled>
         <name>copado__Enable_Vlocity_Integration</name>
     </customPermissions>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Automation_Template_For_CLI__c</name>
-    </customSettingAccesses>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Change_Management_Settings__c</name>
-    </customSettingAccesses>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Data_Change_Event_Condition_Items__c</name>
-    </customSettingAccesses>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Data_Change_Event_Condition__c</name>
-    </customSettingAccesses>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Git_Operation_Restriction__c</name>
-    </customSettingAccesses>
-    <customSettingAccesses>
-        <enabled>true</enabled>
-        <name>copado__Personal_Settings__c</name>
-    </customSettingAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -5340,6 +5277,11 @@
         <editable>false</editable>
         <field>Account.Site</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Test_Account_Field_1__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -13410,15 +13352,7 @@
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
     </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Account</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
+    <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -16784,10 +16718,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageSandboxes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageSharing</name>
     </userPermissions>
     <userPermissions>
@@ -16853,10 +16783,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>Packaging2Delete</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>Packaging2PromoteVersion</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
