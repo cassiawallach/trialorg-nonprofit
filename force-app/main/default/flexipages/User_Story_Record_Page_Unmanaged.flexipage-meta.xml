@@ -4,8 +4,68 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>actionNames</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Commit_Files</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!Record.copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>Salesforce</rightValue>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__MC_Commit_Changes</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!Record.copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>SFDX</rightValue>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Delete</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Edit</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Ready_for_Promotion</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Run_Static_Code_Analysis</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Apex_Test</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Manage_Selenium_Tests</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Run_Compliance_Scan</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Perform_Validation</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.copado__User_Story__c.copado__Pull_Request</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsConfiguration</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsInNative</name>
+                    <value>true</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideChatterActions</name>
@@ -334,10 +394,14 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
+    <flexiPageRegions>
+        <name>sidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
     <masterLabel>User Story Record Page (Unmanaged)</masterLabel>
     <sobjectType>copado__User_Story__c</sobjectType>
     <template>
-        <name>flexipage:recordHomeSingleColTemplateDesktop</name>
+        <name>flexipage:recordHomeTemplateDesktop</name>
     </template>
     <type>RecordPage</type>
 </FlexiPage>

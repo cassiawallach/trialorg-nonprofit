@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>copado__Investigation</fullName>
     <active>true</active>
+    <compactLayoutAssignment>User_Story_Compact_Layout_Unmanaged</compactLayoutAssignment>
     <label>Investigation</label>
     <picklistValues>
         <picklist>copado__Acceptance_Criteria_Status__c</picklist>
